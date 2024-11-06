@@ -1,0 +1,183 @@
+/*Default setting*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    
+}
+body{
+    background-color: black;
+}
+/*header part start*/
+.part1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.again-btn,.range{
+    font-size: 1.5rem;
+    margin: 10px;
+
+}
+.again-btn{
+    font-size: 2rem;
+    background-color: white;
+    font-weight: 600;
+    color:black;
+    width:150px;
+    height:80px
+}
+.range{
+    color:white;
+    font-weight: 500;
+}
+/*header part end*/
+/*main part start*/
+.part2 .heading{
+    color:white;
+    font-size: 4rem;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.line{
+    border:1px solid black;
+    height:10px;
+    margin-top: 100px;
+    background-color: white;
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color: white;
+    position: absolute;
+    top:35%;
+    left:45%;
+   
+    padding-left:35px;
+    padding-top: 12px;
+    
+    
+}
+.question
+{
+    color:black;
+    font-size: 4rem;
+}
+/*main part end*/
+p,span{
+    color:white;
+    font-size: 1.5rem;
+}
+.number{
+    position: relative;
+    background-color: black;
+    border-color: white;
+    color:white;
+    width:200px;
+    height:80px;
+    border-width: 5px;
+    top:10rem;
+    left:10%;
+    font-size: 2rem;
+    padding-left: 75px;
+
+
+}
+.check-btn{
+    width:100px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top:11.5rem;
+    left:15%
+
+}
+.guessing{
+    position: relative;
+    left:65%;
+}
+.score{
+    position:relative;
+    left:65%;
+    top:10px
+}
+.span{
+    position:relative;
+    bottom:26px;
+    left:22%;
+}
+/* mobile resolution*/
+@media (min-width:360px) and (max-width:819px){
+.again-btn{
+    width:100px;
+    height:50px;
+}
+.range{
+    margin-top: 20px;
+}
+.part2 .heading{
+    color:white;
+    font-size: 2rem;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.box{
+    position:relative;
+    bottom:50px;
+    left:150px;
+
+}
+.number{
+    position:relative;
+    top:12px;
+    left:30px;
+    width:180px
+}
+.check-btn{
+    position:relative;
+    top:-50px;
+    left:250px
+}
+.guessing{
+    position:relative;
+    left:90px;
+    top:-20px;
+}
+.score{
+    position: relative;
+    left:90px;
+    
+}
+.span{
+    position: relative;
+    left:200px
+}
+}
+/*tab resolution*/
+@media (min-width:820px) and (max-width:1279px)
+{
+    .box{
+        position:relative;
+        top:-50px;
+    }
+    .check-btn{
+        position: relative;
+        left:130px;
+    }
+}
+/* laptop and desk top resolution*/
+@media (min-width:1280px){
+    .heading{
+        position: relative;
+        left:200px
+    }
+    .check-btn{
+        position: relative;
+        left:180px;
+    }
+}
+
